@@ -1,0 +1,16 @@
+[boolean].
+
+logicGate(true, true, O).
+logicGate(true, false, O).
+logicGate(false, true, O).
+logicGate(false, false, O).
+
+
+[lab8_tasks].
+
+sumlist([1,2,5,7], Sum).
+sumlist([], Sum).
+total_and_average.
+10.
+20.
+25.
