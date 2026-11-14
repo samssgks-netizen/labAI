@@ -1,1 +1,37 @@
+t1----------------------------------------
 
+
+square(5, Area, Perimeter).
+rectangle(4, 6, Area, Perimeter).
+triangle(8, 5, 5, 5, 8, Area, Perimeter).
+calc_square.
+5.
+calc_rectangle.
+4.
+6.
+calc_triangle.
+8.
+5.
+5.
+5.
+8.
+
+
+t2------------------------------------------
+
+
+login.
+admin.
+1234.
+login.
+admin.
+0000.
+student.
+arti401.
+login.
+admin.
+1111.
+student.
+wrongpass.
+user1.
+0000.
