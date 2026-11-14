@@ -4,7 +4,7 @@ user(student, arti401).
 user(sara, pass2026).
 user(ahmed, qwerty).
 
-% Main Login Rule (1 initial attempt + 2 extra attempts = 3 total)
+% Login Rule (1 initial attempt + 2 extra attempts = 3 attempts total)
 login :-
     login_attempts(3).
 
