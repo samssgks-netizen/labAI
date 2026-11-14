@@ -1,5 +1,4 @@
-
-% --- Square ---
+% --- 1. Square ---
 square(Side, Area, Perimeter) :-
     Area is Side ** 2,
     Perimeter is 4 * Side.
@@ -11,7 +10,7 @@ calc_square :-
     write('Area of Square = '), write(Area), nl,
     write('Perimeter of Square = '), write(Perimeter), nl.
 
-% --- Rectangle ---
+% --- 2. Rectangle ---
 rectangle(Width, Height, Area, Perimeter) :-
     Area is Width * Height,
     Perimeter is 2 * (Width + Height).
@@ -24,7 +23,7 @@ calc_rectangle :-
     write('Area of Rectangle = '), write(Area), nl,
     write('Perimeter of Rectangle = '), write(Perimeter), nl.
 
-% --- Triangle ---
+% --- 3. Triangle ---
 triangle(Base, Height, A, B, C, Area, Perimeter) :-
     Area is 0.5 * Base * Height,
     Perimeter is A + B + C.
